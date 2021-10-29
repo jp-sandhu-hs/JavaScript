@@ -1,0 +1,20 @@
+{
+  "name": "hsjavacripttutorial",
+  "version": "1.0.0",
+  "description": "Health Space JavaScript lessons",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "browserReload": "livereload -f 'index.html' public/",
+    "serverStart": "nodemon app.js -e ejs,js,css,html,jpg,png,scss",
+    "start": "npm run serverStart && npm run browserReload"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "express": "^4.17.1",
+    "livereload": "^0.9.3",
+    "reload": "^3.2.0"
+  }
+}
